@@ -12,10 +12,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-<<<<<<< HEAD
-
-=======
->>>>>>> 77062d28aeb5b0b2916c2e3a1a1607bb3e6a8518
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -59,13 +55,7 @@ ROOT_URLCONF = "gallery_project.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-<<<<<<< HEAD
         "DIRS": [BASE_DIR / 'templates'],
-=======
-         'DIRS': [
-            BASE_DIR / 'templates',
-        ],
->>>>>>> 77062d28aeb5b0b2916c2e3a1a1607bb3e6a8518
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -77,6 +67,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 
 
